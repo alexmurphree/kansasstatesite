@@ -1,0 +1,119 @@
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header img{
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+.header h1{
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+.header li{
+  display: inline;
+}
+
+a{
+  color:#2055DA
+}
+
+html{
+  background-color:goldenrod;
+  color: rgb(65, 25, 0)
+}
+
+a:hover {
+  color:cornsilk;
+}
+
+img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#contactphoto {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+ol {
+  float:inline-start;
+}
+
+h1 {
+  color: rgb(65, 25, 0);
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+#caption {
+  color: #EFD79B;
+  font-style:italic;
+  font-size:small;
+  text-indent: 110px;
+  margin-top: 0%;
+}
+
+label {
+  font-size: small;
+}
+
+aside{
+  float: right;
+  width: 30%;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#contactform {
+  float: left;
+  width: 40%;
+  border: 2px solid rgb(65, 25, 0);
+  position: absolute;
+  color: rgb(65, 25, 0)
+}
+
+.footer {
+  font-size: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(65, 25, 0);
+  color: white;
+  text-align: left;
+}
+
+.tidbit {
+  color: #4056A1;
+  border: solid #4056A1;
+  border-radius: 30%;
+  text-align: center;
+}
+
+#KansasTitle {
+  margin-bottom: 0%;
+  color: rgb(65, 25, 0);
+}
+
+#ku-stats th, td{
+  border: 1px solid rgb(65, 25, 0);
+  padding: 5px;
+}
+
+.crimson {
+  color: crimson;
+}
+
+.blue {
+  color: blue;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+      function verifyEmail() {
+        var email = document.getElementById("email").value;
+        var emailverification = document.getElementById("emailverification").value;
+
+        if (email !== emailverification) {
+          alert("Email addresses do not match!");
+          return false;
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <a href="index.html"><img src="Seal_of_Kansas.png" alt="Kansas State Seal"></a>
+        <h1>Welcome to the State of Kansas!</h1>
+        <nav>
+          <ul>
+            <li><a href="state site.html">Home</a></li>
+            <li><a href="topeka page.html">Topeka</a></li>
+            <li><a href="lawrence page.html">Lawrence</a></li>
+            <li><a href="manhattan page.html">Manhattan</a></li>
+            <li><a href="contact form.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <h2>Want to learn more?</h2>
+      <p>Fill out the form below, and a state representative will personally come to your house!</p>
+    <aside element id=contactform>  
+      <form onsubmit="return verifyEmail()">
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" placeholder="First Name"><br>
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" placeholder="Last Name"><br>
+        <label for="street-address">Street Address</label>
+        <input type="text" id="street-address" placeholder="Street Address">
+        <label for="city">City</label>
+        <input type="text" id="city" placeholder="City">
+        <label for="state">State</label>
+        <input type="text" id="state" placeholder="State">
+        <label for="postal-code">ZIP</label>
+        <input type="text" id="postal-code" placeholder="ZIP Code"><br>
+        <label for="email">Email Address</label>
+        <input type="text" id="email" placeholder="Email Address"><br>
+        <label for="emailverification">Please verify your address</label>
+        <input type="text" id="emailverification" placeholder="Verify Email Address"><br>
+        <label for="question">Questions, Comments, or Concerns?</label><br>
+        <textarea id="question" placeholder="Reveal your secrets here"></textarea><br>
+        <input type="submit" value="Submit">
+      </form>
+     </aside> 
+     <img id=contactphoto src="Kansas_State_Capitol.jpeg" width="500px" height="375px" alt="Kansas Capital">
+    </section>
+    <footer class="footer">
+      <p>Kansas has been brought to you by: settlers who stole land from indigenous peoples!</p>
+    </footer>
+  </body>
+</html>
